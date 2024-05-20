@@ -14,7 +14,7 @@ public static class ServiceCollectionExtensions
     {
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
         {
-            services.AddSingleton<ISymbolicLinkHelper, WindowsSymbolicLinkHelper>();
+            services.AddSingleton<ISymbolicLinkHelper, SymbolicLinkHelper>();
         }
         else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
         {

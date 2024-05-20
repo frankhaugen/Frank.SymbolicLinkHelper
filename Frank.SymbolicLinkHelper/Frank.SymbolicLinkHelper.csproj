@@ -3,10 +3,14 @@
     <PropertyGroup>
         <Description>A library that provides a cross-platform interface for managing symbolic links.</Description>
         <PackageTags>symbolic, link, symlink, junction, hardlink, softlink, directory, file, cross-platform, .NET, linux, windows, helper</PackageTags>
+        
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="CliWrap" Version="3.6.6" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
     </ItemGroup>
 
 </Project>
