@@ -1,9 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Description>A library that provides a cross-platform interface for managing symbolic links.</Description>
+        <PackageTags>symbolic, link, symlink, junction, hardlink, softlink, directory, file, cross-platform, .NET, linux, windows, helper</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
