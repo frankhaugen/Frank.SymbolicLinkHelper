@@ -20,9 +20,10 @@ public class SymbolicLinkHelperTests
         var symbolicLinkHelper = serviceProvider.GetRequiredService<ISymbolicLinkHelper>();
         var currentDirectory = GetCurrentDirectory();
         var tempDirectory = GetTempDirectory();
+        var linkDirectory = new DirectoryInfo(Path.Combine(currentDirectory.FullName, Path.GetFileNameWithoutExtension(Path.GetRandomFileName())));
         
         // Act
-        symbolicLinkHelper.CreateSymbolicLink(tempDirectory, currentDirectory);
+        symbolicLinkHelper.CreateSymbolicLink(tempDirectory, linkDirectory);
         
         // Assert
         Assert.True(tempDirectory.Exists);
