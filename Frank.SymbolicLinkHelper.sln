@@ -1,0 +1,43 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEAEB8DC-89D7-4C45-BE77-E3B576BFBB21}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\merge.yml = .github\workflows\merge.yml
+		.github\workflows\pull-request.yml = .github\workflows\pull-request.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		icon.png = icon.png
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+		README.md = README.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		CONTRIBUTORS.md = CONTRIBUTORS.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frank.SymbolicLinkHelper", "Frank.SymbolicLinkHelper\Frank.SymbolicLinkHelper.csproj", "{05C0D410-07DF-4086-8FB9-B14B9DDAF2AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frank.SymbolicLinkHelper.Tests", "Frank.SymbolicLinkHelper.Tests\Frank.SymbolicLinkHelper.Tests.csproj", "{22C233F6-487D-4FA6-957B-FAEC4F185289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05C0D410-07DF-4086-8FB9-B14B9DDAF2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C0D410-07DF-4086-8FB9-B14B9DDAF2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C0D410-07DF-4086-8FB9-B14B9DDAF2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C0D410-07DF-4086-8FB9-B14B9DDAF2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C233F6-487D-4FA6-957B-FAEC4F185289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C233F6-487D-4FA6-957B-FAEC4F185289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C233F6-487D-4FA6-957B-FAEC4F185289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C233F6-487D-4FA6-957B-FAEC4F185289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
